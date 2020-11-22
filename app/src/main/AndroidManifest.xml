@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AaHome">
         <activity
+            android:name=".MovieDetailsActivity"
+            android:label="@string/title_activity_movie_details"
+            android:theme="@style/Theme.AaHome.NoActionBar"/>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AaHome.NoActionBar">
